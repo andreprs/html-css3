@@ -77,7 +77,7 @@ O resultado será:
 Esse é um parágrafo feito em HTML.
 ```
 
-Para que haja a quebra de linha **pode-se usar a tag <br>**, que significa "break row" (quebre a linha). 
+Para que haja a quebra de linha **pode-se usar a tag < br >**, que significa "break row" (quebre a linha). 
 
 ## Simbolos
 
