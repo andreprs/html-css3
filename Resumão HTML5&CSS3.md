@@ -56,3 +56,32 @@ p {
 <body>
 </html>
 ```
+# HTML
+
+## Parágrafos e quebras de linha
+
+Os parágrafos em HTML são **delimitados pelas tags <p> e </p>**, porém isso mantém o texto todo junto, mesmo havendo 
+quebra de linha a linguagem não interpretará dessa forma. EX: 
+
+```
+<p> Esse é um 
+    parágrafo
+    feito em 
+    HTML.
+</p>
+```
+
+O resultado será:
+
+```
+Esse é um parágrafo feito em HTML.
+```
+
+Para que haja a quebra de linha **pode-se usar a tag <br>**, que significa "break row" (quebre a linha). 
+
+## Simbolos
+
+Para que algum símbolo apareça no conteúdo do site, não basta simplesmente colocá-lo no código. Então é necessário usar 
+caracteres especiais que se referem ao código desses símbolos. [Link](https://dev.w3.org/html5/html-author/charref) para consultar o código de cada símbolo. 
+
+O mesmo pode ser feito com emojis, usando o parâmetro **&#x** seguido do código hexadecimal do emoji. Para consulta dos códigos o [link é esse](https://emojipedia.org).
