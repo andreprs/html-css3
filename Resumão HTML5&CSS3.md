@@ -60,7 +60,7 @@ p {
 
 ## Parágrafos e quebras de linha
 
-Os parágrafos em HTML são **delimitados pelas tags <p> e </p>**, porém isso mantém o texto todo junto, mesmo havendo 
+Os parágrafos em HTML são **delimitados pelas tags < p > e </ p >**, porém isso mantém o texto todo junto, mesmo havendo 
 quebra de linha a linguagem não interpretará dessa forma. EX: 
 
 ```
@@ -85,3 +85,17 @@ Para que algum símbolo apareça no conteúdo do site, não basta simplesmente c
 caracteres especiais que se referem ao código desses símbolos. [Link](https://dev.w3.org/html5/html-author/charref) para consultar o código de cada símbolo. 
 
 O mesmo pode ser feito com emojis, usando o parâmetro **&#x** seguido do código hexadecimal do emoji. Para consulta dos códigos o [link é esse](https://emojipedia.org).
+
+## Imagens
+
+* Sites com imagens de domínio público: [Unsplash](https://unsplash.com), [Pexels](https://www.pexels.com/pt-br/), [Rawpixel](https://www.rawpixel.com/?sort=shuffle&page=1&feed=creative-feed), etc.
+
+Os formatos de imagens mais utilizados na criação de sites são o **JPEG** e **PNG** (possui transparência), pois possuem certa compactação, deixando assim a imagem mais leve. 
+
+É preferível que a resolução da imagem a ser utilizada seja pequeno (de acordo com a necessiodade), para que isso não torne o site lento. Para 
+redimensionar uma imagem pode-se utilizar qualquer programa de manipulação de imagem, como o GIMP ou o Photoshop.
+
+Existem três maneiras básicas de se carregar uma imagem no código HTML. Duas delas envolvem os arquivos do próprio computador que estejam 
+na mesma pasta do arquivo **index.html** (sub-pastas também contam) ou utilizando o link da imagem. Digitando **img** 
+o editor já completa a linha de código, bastando completar com o arquivo de imagem. 
+Quando a imagem está na mesma pasta do arquivo **index** pode-se utilizar o atalho **ctrl+espaço** do editor *VScode* e selecionar o arquivo que deseja utilizar.
