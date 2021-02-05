@@ -88,7 +88,7 @@ O mesmo pode ser feito com emojis, usando o parâmetro **&#x** seguido do códig
 
 ## Imagens
 
-* Sites com imagens de domínio público: [Unsplash](https://unsplash.com), [Pexels](https://www.pexels.com/pt-br/), [Rawpixel](https://www.rawpixel.com/?sort=shuffle&page=1&feed=creative-feed), etc.
+* Sites com imagens de domínio público: [Unsplash](https://unsplash.com), [Pexels](https://www.pexels.com/pt-br/), [Rawpixel](https://www.rawpixel.com/?sort=shuffle&page=1&feed=creative-feed), [Pixabay](https://pixabay.com/pt/), [Flaticon](https://www.flaticon.com/br/), etc.
 
 Os formatos de imagens mais utilizados na criação de sites são o **JPEG** e **PNG** (possui transparência), pois possuem certa compactação, deixando assim a imagem mais leve. 
 
@@ -99,3 +99,12 @@ Existem três maneiras básicas de se carregar uma imagem no código HTML. Duas 
 na mesma pasta do arquivo **index.html** (sub-pastas também contam) ou utilizando o link da imagem. Digitando **img** 
 o editor já completa a linha de código, bastando completar com o arquivo de imagem. 
 Quando a imagem está na mesma pasta do arquivo **index** pode-se utilizar o atalho **ctrl+espaço** do editor *VScode* e selecionar o arquivo que deseja utilizar.
+
+### Favicon
+
+Em um site é possível adicionar um ícone de favicon digitando *link:favicon* no VScode. **É recomendável o uso de arquivos com a extensão** *.ico*. 
+
+Sites recomendados: 
+
+* Site para criar seu próprio ícone: [favicon.cc](https://www.favicon.cc)
+* Site para conversão de outros formatos para ícone: [favicon.io](https://www.favicon.cc)
