@@ -58,7 +58,7 @@ p {
 ```
 # HTML
 
-## Parágrafos e quebras de linha
+### Parágrafos e quebras de linha
 
 Os parágrafos em HTML são **delimitados pelas tags < p > e </ p >**, porém isso mantém o texto todo junto, mesmo havendo 
 quebra de linha a linguagem não interpretará dessa forma. EX: 
@@ -79,14 +79,14 @@ Esse é um parágrafo feito em HTML.
 
 Para que haja a quebra de linha **pode-se usar a tag < br >**, que significa "break row" (quebre a linha). 
 
-## Simbolos
+### Simbolos
 
 Para que algum símbolo apareça no conteúdo do site, não basta simplesmente colocá-lo no código. Então é necessário usar 
 caracteres especiais que se referem ao código desses símbolos. [Link](https://dev.w3.org/html5/html-author/charref) para consultar o código de cada símbolo. 
 
 O mesmo pode ser feito com emojis, usando o parâmetro **&#x** seguido do código hexadecimal do emoji. Para consulta dos códigos o [link é esse](https://emojipedia.org).
 
-## Imagens
+### Imagens
 
 * Sites com imagens de domínio público: [Unsplash](https://unsplash.com), [Pexels](https://www.pexels.com/pt-br/), [Rawpixel](https://www.rawpixel.com/?sort=shuffle&page=1&feed=creative-feed), [Pixabay](https://pixabay.com/pt/), [Flaticon](https://www.flaticon.com/br/), etc.
 
@@ -108,3 +108,51 @@ Sites recomendados:
 
 * Site para criar seu próprio ícone: [favicon.cc](https://www.favicon.cc)
 * Site para conversão de outros formatos para ícone: [favicon.io](https://www.favicon.cc)
+
+### Hierarquia de Títulos
+
+Títulos em HTML são chamados headings, onde possuem 6 níveis que são expecificados pelas tags: <h1>, <h2>, <h3>, <h4>, <h5> e <h6>. 
+<h1> Se refere ao título principal, enquanto aos outros são subníveis de <h1>. 
+
+### Formatações
+
+* Negrito: recomendado o uso de <strong>;
+* Itálico: <em>;
+* Marca texto: <mark>...</mark>;
+* Texto pequeno: <small>;
+* Texto deletado: <del>;
+* Texto inserido: <ins>...</ins>;
+* Texto sobrescrito: <sub>;
+* Texto subscrito: <sup>;
+* Trecho de código: <code>...</code> & <pre> (mantém a pré-formatação);
+* Citações: <q>;
+* Citações em blocos: <blockquote>;
+* Abreviações: <abbr>;
+
+### Listas
+
+* Listas ordenadas: criada e delimitada pela tag <ol> e onde cada ítem é listado pela tag <li>. Existem os parâmetros *type* 
+(para configurar o tipo de marcador da lista) e também o *start* (para configurar o início da contagem).
+* Listas não ordenadas: criada e delimitada pela tag <ul>, onde cada ítem também é listado pela tag <li>. O parâmetro *type* 
+pode modificar o tipo do marcador, podendo ser **disc, circle** ou **square**, sendo o *disc* o padrão. 
+
+Obs: as listas podem feitas umas dentro das outras, ou seja, podem ser mistas. 
+
+* Lista de definição: termo principal marcado pela tag <dt> e sua explicação <dd>;
+
+### Links e Âncoras
+
+* Links: tag <a>...</a> onde o parâmetro *href* deve ser preenchido com a URL de caminho. Além disso pode-se utilizar o parâmetro 
+*hreflang* para indicar o idioma principal do site que está sendo linkado. É recomendável o uso do atributo *target* para os 
+seguintes valores: 
+ * _blank: abrir o link em uma nova janela em branco;
+ * _self: abrir o link na janela ou frame atual (padrão);
+ * _top: desfaz todos os frames e abre o destino no navegador completo;
+ * _parent: similar ao _top em uma referência à janela mãe nome-do-frame caso esteja usando frames, indicar o nome da janela a abrir.
+O atributo *rel* é utilizado para indicar a natureza do destino:
+ * next: indica que o link é para a próxima parte do documento atual;
+ * prev: '' para anterior do documento atual;
+ * author: '' para o site do autor do artigo atual;
+ * external: '' para o site que não faz parte do site. 
+Para fazer downloads é utilizado a mesma tag <a> e o parâmetro *href*, com o complemento de parâmetros *download* (e indicar o nome do arquivo) e 
+*type* ([tipo de arquivo](https://www.iana.org/assignments/media-types/media-types.xhtml)).
