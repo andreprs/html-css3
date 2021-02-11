@@ -111,38 +111,38 @@ Sites recomendados:
 
 ### Hierarquia de Títulos
 
-Títulos em HTML são chamados headings, onde possuem 6 níveis que são expecificados pelas tags: <h1>, <h2>, <h3>, <h4>, <h5> e <h6>. 
-<h1> Se refere ao título principal, enquanto aos outros são subníveis de <h1>. 
+Títulos em HTML são chamados headings, onde possuem 6 níveis que são expecificados pelas tags: < h1 >, < h2 >, < h3 >, < h4 >, < h5 > e < h6 >. 
+< h1 > Se refere ao título principal, enquanto aos outros são subníveis de < h1 >. 
 
 ### Formatações
 
-* Negrito: recomendado o uso de <strong>;
-* Itálico: <em>;
-* Marca texto: <mark>...</mark>;
-* Texto pequeno: <small>;
-* Texto deletado: <del>;
-* Texto inserido: <ins>...</ins>;
-* Texto sobrescrito: <sub>;
-* Texto subscrito: <sup>;
-* Trecho de código: <code>...</code> & <pre> (mantém a pré-formatação);
-* Citações: <q>;
-* Citações em blocos: <blockquote>;
-* Abreviações: <abbr>;
+* Negrito: recomendado o uso de < strong >;
+* Itálico: < em >;
+* Marca texto: < mark >...< /mark >;
+* Texto pequeno: < small >;
+* Texto deletado: < del >;
+* Texto inserido: < ins >...< /ins >;
+* Texto sobrescrito: < sub >;
+* Texto subscrito: < sup >;
+* Trecho de código: < code >...< /code > & < pre > (mantém a pré-formatação);
+* Citações: < q >;
+* Citações em blocos: < blockquote >;
+* Abreviações: < abbr >;
 
 ### Listas
 
-* Listas ordenadas: criada e delimitada pela tag <ol> e onde cada ítem é listado pela tag <li>. Existem os parâmetros *type* 
+* Listas ordenadas: criada e delimitada pela tag < ol > e onde cada ítem é listado pela tag < li >. Existem os parâmetros *type* 
 (para configurar o tipo de marcador da lista) e também o *start* (para configurar o início da contagem).
-* Listas não ordenadas: criada e delimitada pela tag <ul>, onde cada ítem também é listado pela tag <li>. O parâmetro *type* 
+* Listas não ordenadas: criada e delimitada pela tag < ul >, onde cada ítem também é listado pela tag < li >. O parâmetro *type* 
 pode modificar o tipo do marcador, podendo ser **disc, circle** ou **square**, sendo o *disc* o padrão. 
 
 Obs: as listas podem feitas umas dentro das outras, ou seja, podem ser mistas. 
 
-* Lista de definição: termo principal marcado pela tag <dt> e sua explicação <dd>;
+* Lista de definição: termo principal marcado pela tag < dt > e sua explicação < dd >;
 
 ### Links e Âncoras
 
-* Links: tag <a>...</a> onde o parâmetro *href* deve ser preenchido com a URL de caminho. Além disso pode-se utilizar o parâmetro 
+* Links: tag < a >...< /a > onde o parâmetro *href* deve ser preenchido com a URL de caminho. Além disso pode-se utilizar o parâmetro 
 *hreflang* para indicar o idioma principal do site que está sendo linkado. É recomendável o uso do atributo *target* para os 
 seguintes valores: 
  * _blank: abrir o link em uma nova janela em branco;
@@ -154,5 +154,5 @@ O atributo *rel* é utilizado para indicar a natureza do destino:
  * prev: '' para anterior do documento atual;
  * author: '' para o site do autor do artigo atual;
  * external: '' para o site que não faz parte do site. 
-Para fazer downloads é utilizado a mesma tag <a> e o parâmetro *href*, com o complemento de parâmetros *download* (e indicar o nome do arquivo) e 
+Para fazer downloads é utilizado a mesma tag < a > e o parâmetro *href*, com o complemento de parâmetros *download* (e indicar o nome do arquivo) e 
 *type* ([tipo de arquivo](https://www.iana.org/assignments/media-types/media-types.xhtml)).
