@@ -156,3 +156,71 @@ O atributo *rel* é utilizado para indicar a natureza do destino:
  * external: '' para o site que não faz parte do site. 
 Para fazer downloads é utilizado a mesma tag < a > e o parâmetro *href*, com o complemento de parâmetros *download* (e indicar o nome do arquivo) e 
 *type* ([tipo de arquivo](https://www.iana.org/assignments/media-types/media-types.xhtml)).
+
+### Mídias
+
+* Imagens dinâmicas: para casos de adaptação, seja ao diminuir a janela do navegador ou ao abrir o site em outros dispositivos. Para isso 
+usa-se a tag < picture > e < source >. A tag < img > irá ser utilizada normalmente, porém acima dela a *source* é usada para que o carregamento 
+das outras imagens sejam feitas de acordo com o tamanho necessário (da menor para a maior). A tag *source* possui três parâmetros: media (tamanho 
+máximo a ser considerado para a imagem ser carregada), srcset (nome do arquivo da imagem) e type (indicando o tipo de imagem).
+* Audios: utiliza-se a tag < audio > (com parâmetros como controls, autoplay, loop, preload="metadata") em conjunto com a tag < source src > 
+(que indicará o nome do arquivo e seu tipo).
+* Vídeos: usa-se a tag < video > (com parâmetros como: width, poster, controls, autoplay, etc.) para vídeos hospedados no próprio servidor. 
+Novamente a tag *source scr* é usada para indicar o nome do arquivo e seu tipo. Para vídeos hospedados em outros sites, como o youtube 
+por exemplo, existe a função **incorporar**, assim aparece-rá um script personalizado para ser copiado e colado em seu arquivo. 
+
+# CSS
+
+## Estilos
+
+### Estilo inline
+
+São estilos colocados linha a linha do seu código. Ex: 
+
+```
+<body style="font-family: Arial;">
+```
+
+Dessa forma, a fonte de todo o conteúdo de seu site estará com a fonte Arial. O problema desse estilo é a poluição no código, pois 
+se quiser mudar, por exemplo, a fonte apenas dos títulos de hierarquia 1, o estilo terá que ser feito em cada um dos títulos, ocupando 
+espaço e tempo. **Porém para casos mais específicos, que sejam necessárias configurações pontuais, esse estilo é mais recomendado**.
+
+### Estilo interno
+
+Esse tipo de estilo é feito com base em seletores atraves da tag < style > abaixo da tag *title*. Os seletores seguem a seguinte 
+configuração:
+
+```
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    h1 {
+        color: greeen;
+    }
+</style>
+```
+
+Assim, nesse exemplo, todos os títulos de hierarquia 1 possuem a cor verde. Esse estilo é mais limpo e deixa claro a separação entre 
+*conteúdo* e *forma*. O problema encontra-se quando o site possuí várias páginas com o mesmo estilo, pois esse código deverá ser copiado 
+em todas, assim criando códigos extensos. 
+
+### Estilos externos
+
+Dentro da tag < head > usa-se a tag *link css*, referenciando assim um arquivo **.css** separado. O código é construído de forma semelhante 
+à maneira interna. 
+
+```
+@charset "UTF-8"; /* regra caso haja problemas com acentuação */
+
+body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    h1 {
+        color: greeen;
+    }
+```
+
+O resultado será o mesmo do estilo interno, porém agora em um arquivo separado que pode ser linkado em todas as páginas. 

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>Abra em vários tipos de dispositivos ou aumente e diminua o tamanho do seu navegador.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="m.png" type="image/png">
+        <img src="g.png" alt="Foto dinâmica">
+    </picture>
+    <h1>Áudios</h1>
+    <p>Reproduzindo um áudio.</p>
+    <audio preload="metadata" controls loop>
+        <source src="Sunset n Beachz - Ofshane.mp3" type="audio/mpeg">
+    </audio>
+    <h1>Vídeos hospedados localmente</h1>
+    <p>Abaixo um vídeo baixado no site pexels e hospedado localmente.</p>
+    <video controls width="500">
+        <source src="Pexels Videos 1918465 (1).mp4" type="video/mp4">
+    </video>
+    <h1>Vídeos hospedados externamente</h1>
+    <p>Vamos ver um vídeo do sovinha.</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/HJlvQxahIKo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>
