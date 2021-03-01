@@ -154,7 +154,8 @@ O atributo *rel* é utilizado para indicar a natureza do destino:
  * prev: '' para anterior do documento atual;
  * author: '' para o site do autor do artigo atual;
  * external: '' para o site que não faz parte do site. 
-Para fazer downloads é utilizado a mesma tag < a > e o parâmetro *href*, com o complemento de parâmetros *download* (e indicar o nome do arquivo) e 
+
+Para fazer downloads é utilizado a mesma tag < a > e o parâmetro *href*, com o complemento de parâmetros *download* (que indica o nome do arquivo) e 
 *type* ([tipo de arquivo](https://www.iana.org/assignments/media-types/media-types.xhtml)).
 
 ### Mídias
@@ -224,3 +225,24 @@ body {
 ```
 
 O resultado será o mesmo do estilo interno, porém agora em um arquivo separado que pode ser linkado em todas as páginas. 
+
+## Cores
+
+![Cores](https://imgur.com/a/Vwn4XAK)
+
+Para se montar uma paleta de cores deve-se usar o círculo cromático com algumas combinações possíveis: 
+
+* Cores complementares;
+* Cores análogas;
+* Cores análogas mais uma complementar;
+* Cores análogas relacionadas;
+* Cores intercaladas;
+* Cores triádicas;
+* Cores em quadrado;
+* Cores tetrádicas;
+* Monocromia.
+
+Obs: normalmente uma paleta é composta de 3 e no máximo 5 cores.
+
+Sites para facilitar na hora da paleta de cores: [Adobe Color](https://color.adobe.com/pt/create/color-wheel), 
+[Paletton](https://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF) e [Coolors](https://coolors.co).
