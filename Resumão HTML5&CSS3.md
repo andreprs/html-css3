@@ -228,7 +228,7 @@ O resultado será o mesmo do estilo interno, porém agora em um arquivo separado
 
 ## Cores
 
-![Cores](https://imgur.com/a/Vwn4XAK)
+![Cores](https://github.com/andreprs/html-css3/blob/main/Imagens/cores.png)
 
 Para se montar uma paleta de cores deve-se usar o círculo cromático com algumas combinações possíveis: 
 
